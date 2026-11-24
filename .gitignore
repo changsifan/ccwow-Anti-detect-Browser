@@ -1,0 +1,44 @@
+# ---- 系统 / 编辑器 ----
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# ---- 日志与临时文件 ----
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+
+# ---- 安装包（只忽略"安装器"，程序本体要能提交）----
+*setup*.exe
+*Setup*.exe
+*install*.exe
+*installer*.exe
+*webinstall.exe
+*.msi
+*.dmg
+*.iso
+*setup*.zip
+*installer*.zip
+
+# ---- 浏览器运行数据（体积大、含 cookie 与登录态）----
+profiles/
+userdata/
+cookies/
+Cache/
+GPUCache/
+*.sqlite
+*.db
+
+# ---- 密钥与本地配置（绝对不要提交）----
+.env
+.env.*
+*.key
+*.pem
+secrets.*
+config.local.*
